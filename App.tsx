@@ -1,8 +1,11 @@
-import React from 'react';
-import { HelloWorldScreen } from './src/screens/helloWorld'
+import React from "react";
+import { Text, View } from "react-native";
+import { HelloWorldScreen } from "./src/screen/helloWorld";
+import { BasicCounterScreen } from "./src/screen/basic-counter";
+
 export default function App() {
   return (
-    <HelloWorldScreen></HelloWorldScreen>
+    //<HelloWorldScreen></HelloWorldScreen>
+    <BasicCounterScreen></BasicCounterScreen>
   );
 }
-
